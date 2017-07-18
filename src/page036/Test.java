@@ -1,10 +1,10 @@
 /**
  * @project book-java-interview
- * @package page36
+ * @package page036
  * @file Test.java
  * @author chenxihong
  */
-package page36;
+package page036;
 
 /** 
  * Class: Test

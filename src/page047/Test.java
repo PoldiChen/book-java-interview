@@ -1,14 +1,14 @@
 /**
  * @project book-java-interview
- * @package page35
+ * @package page047
  * @file Test.java
  * @author chenxihong
  */
-package page35;
+package page047;
 
 /** 
  * Class: Test
- * date: 2017年7月16日 下午10:22:45
+ * date: 2017年7月16日 下午10:52:28
  * @author chenxihong 
  * @version  
  * @since JDK 1.8
@@ -16,11 +16,9 @@ package page35;
 public class Test {
 	
 	public static void main(String[] args) {
-		int j = 0;
-		for (int i = 0; i < 100; i++) {
-			j = j++;
-		}
-		System.out.println(j); // 0
+		int num = 100;
+		num = num >> 32;
+		System.out.println(num); // 结果还是100，int型位移的位数先对32求余，long型对64求余
 	}
 
 }
